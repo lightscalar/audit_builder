@@ -1,4 +1,4 @@
 """html_template.py
 --
-Generate HTML templates for the audit report.
+Generate HTML templates for the audit reports.
 """

@@ -19,5 +19,8 @@ class GetPath:
         """Return the path to the stylesheet."""
         return f"{self.base_path()}/audit_builder/assets/styles/output.css"
 
+    def path_to_images(self) -> str:
+        return f"{self.base_path()}/audit_builder/assets/images"
+
 
 getpath = GetPath()
