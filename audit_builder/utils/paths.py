@@ -11,16 +11,24 @@ import os
 class GetPath:
     """Get the paths that are important to the project."""
 
-    def base_path(self) -> str:
-        """Return the base path of the testify module."""
+    @property
+    def root(self) -> str:
+        """Return the root path of the current library."""
         return os.path.abspath(inspect.getmodule(audit_builder).__path__[0])
 
-    def path_to_styles(self) -> str:
-        """Return the path to the stylesheet."""
-        return f"{self.base_path()}/audit_builder/assets/styles/output.css"
+    @property
+    def styles(self) -> str:
+        """Return the path to the CSS stylesheet."""
+        return f"{self.root}/assets/styles/output.css"
 
-    def path_to_images(self) -> str:
-        return f"{self.base_path()}/audit_builder/assets/images"
+    @property
+    def images(self) -> str:
+        return f"{self.root}/assets/images"
+
+    @property
+    def reports(self) -> str:
+        return f"{self.root}/audit_builder/audit_reports"
 
 
+# Make an instance for convenience...
 getpath = GetPath()

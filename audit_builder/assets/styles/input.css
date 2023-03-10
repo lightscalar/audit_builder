@@ -1,3 +1,67 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.title-font {
+    color: #b91c1c;
+    color: #000000;
+    font-family: "Share Tech", sans-serif;
+    @apply text-6xl;
+}
+
+.title-section {
+    @apply text-4xl text-red-800 text-center ml-16;
+    @apply flex flex-row pt-40 items-center justify-around;
+    width: 400px;
+    padding-left: 15px;
+}
+
+.logo {
+    @apply h-32 mr-20;
+}
+
+.tech-font {
+    font-family: "Share Tech", sans-serif;
+}
+
+main {
+    /* @apply p-8 w-full; */
+}
+
+.medium-font {
+    @apply text-4xl text-center;
+    width: 500px;
+}
+
+.full {
+    /* @apply w-full; */
+}
+
+.version {
+    @apply flex flex-row pt-40 items-center justify-around mx-20;
+}
+
+.wassup {
+    @apply flex flex-col items-center mx-20;
+}
+
+.stack {
+    @apply flex flex-col items-center mt-10;
+    background-color: #efefef;
+    padding: 10px;
+}
+
+.mt-10x {
+    @apply mt-10;
+}
+
+.slate-700 {
+    color: #334155;
+}
+
+.version-font {
+    color: #475569;
+    font-family: "Share Tech", sans-serif;
+    @apply text-4xl text-center;
+    width: 500px;
+}

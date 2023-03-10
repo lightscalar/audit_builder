@@ -512,3 +512,95 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.title-font {
+  color: #b91c1c;
+  color: #000000;
+  font-family: "Share Tech", sans-serif;
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.title-section {
+  margin-left: 4rem;
+  text-align: center;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(153 27 27 / var(--tw-text-opacity));
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 10rem;
+  width: 400px;
+  padding-left: 15px;
+}
+
+.logo {
+  margin-right: 5rem;
+  height: 8rem;
+}
+
+.tech-font {
+  font-family: "Share Tech", sans-serif;
+}
+
+main {
+  /* @apply p-8 w-full; */
+}
+
+.medium-font {
+  text-align: center;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  width: 500px;
+}
+
+.full {
+  /* @apply w-full; */
+}
+
+.version {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 10rem;
+}
+
+.wassup {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stack {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #efefef;
+  padding: 10px;
+}
+
+.mt-10x {
+  margin-top: 2.5rem;
+}
+
+.slate-700 {
+  color: #334155;
+}
+
+.version-font {
+  color: #475569;
+  font-family: "Share Tech", sans-serif;
+  text-align: center;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  width: 500px;
+}
